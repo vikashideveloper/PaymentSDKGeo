@@ -8,12 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		7928D0ED1F9513F6009B77A6 /* GeoPaymentSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7928D0EB1F9513F6009B77A6 /* GeoPaymentSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79CA03861F9517DD00007DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03851F9517DD00007DD9 /* Main.storyboard */; };
+		79CA03981F95199000007DD9 /* GeoPaymentSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03971F95199000007DD9 /* GeoPaymentSDK.m */; };
+		79CA03A51F95212C00007DD9 /* cart-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA039F1F95212C00007DD9 /* cart-icon.png */; };
+		79CA03A61F95212C00007DD9 /* geo-logo-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03A01F95212C00007DD9 /* geo-logo-small.png */; };
+		79CA03A71F95212C00007DD9 /* master-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03A11F95212C00007DD9 /* master-card.png */; };
+		79CA03A81F95212C00007DD9 /* tick-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03A21F95212C00007DD9 /* tick-icon.png */; };
+		79CA03A91F95212C00007DD9 /* visa-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03A31F95212C00007DD9 /* visa-card.png */; };
+		79CA03AA1F95212C00007DD9 /* wing-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA03A41F95212C00007DD9 /* wing-card.png */; };
+		79CA03B11F9521F700007DD9 /* SelectCardController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CA03AF1F9521F700007DD9 /* SelectCardController.h */; };
+		79CA03B21F9521F700007DD9 /* SelectCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03B01F9521F700007DD9 /* SelectCardController.m */; };
+		79CA03B51F95222B00007DD9 /* CardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CA03B31F95222B00007DD9 /* CardViewController.h */; };
+		79CA03B61F95222B00007DD9 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03B41F95222B00007DD9 /* CardViewController.m */; };
+		79CA03BD1F95242100007DD9 /* NSObject+UIViewController_ToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CA03BB1F95242100007DD9 /* NSObject+UIViewController_ToastView.h */; };
+		79CA03BE1F95242100007DD9 /* NSObject+UIViewController_ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03BC1F95242100007DD9 /* NSObject+UIViewController_ToastView.m */; };
+		79CA03C91F952ED000007DD9 /* ConfirmationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CA03C71F952ED000007DD9 /* ConfirmationController.h */; };
+		79CA03CA1F952ED000007DD9 /* ConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03C81F952ED000007DD9 /* ConfirmationController.m */; };
+		79CA03D11F9531B700007DD9 /* SuccessfulPaymentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CA03CF1F9531B700007DD9 /* SuccessfulPaymentController.h */; };
+		79CA03D21F9531B700007DD9 /* SuccessfulPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA03D01F9531B700007DD9 /* SuccessfulPaymentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7928D0E81F9513F6009B77A6 /* GeoPaymentSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoPaymentSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7928D0EB1F9513F6009B77A6 /* GeoPaymentSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoPaymentSDK.h; sourceTree = "<group>"; };
 		7928D0EC1F9513F6009B77A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CA03851F9517DD00007DD9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		79CA03971F95199000007DD9 /* GeoPaymentSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPaymentSDK.m; sourceTree = "<group>"; };
+		79CA039F1F95212C00007DD9 /* cart-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart-icon.png"; sourceTree = "<group>"; };
+		79CA03A01F95212C00007DD9 /* geo-logo-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geo-logo-small.png"; sourceTree = "<group>"; };
+		79CA03A11F95212C00007DD9 /* master-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "master-card.png"; sourceTree = "<group>"; };
+		79CA03A21F95212C00007DD9 /* tick-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick-icon.png"; sourceTree = "<group>"; };
+		79CA03A31F95212C00007DD9 /* visa-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa-card.png"; sourceTree = "<group>"; };
+		79CA03A41F95212C00007DD9 /* wing-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wing-card.png"; sourceTree = "<group>"; };
+		79CA03AF1F9521F700007DD9 /* SelectCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCardController.h; sourceTree = "<group>"; };
+		79CA03B01F9521F700007DD9 /* SelectCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCardController.m; sourceTree = "<group>"; };
+		79CA03B31F95222B00007DD9 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		79CA03B41F95222B00007DD9 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		79CA03BB1F95242100007DD9 /* NSObject+UIViewController_ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIViewController_ToastView.h"; sourceTree = "<group>"; };
+		79CA03BC1F95242100007DD9 /* NSObject+UIViewController_ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIViewController_ToastView.m"; sourceTree = "<group>"; };
+		79CA03C71F952ED000007DD9 /* ConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationController.h; sourceTree = "<group>"; };
+		79CA03C81F952ED000007DD9 /* ConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationController.m; sourceTree = "<group>"; };
+		79CA03CF1F9531B700007DD9 /* SuccessfulPaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessfulPaymentController.h; sourceTree = "<group>"; };
+		79CA03D01F9531B700007DD9 /* SuccessfulPaymentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessfulPaymentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +82,44 @@
 		7928D0EA1F9513F6009B77A6 /* GeoPaymentSDK */ = {
 			isa = PBXGroup;
 			children = (
+				79CA039E1F95212000007DD9 /* Images */,
+				79CA03841F9517B500007DD9 /* PaymentViews */,
 				7928D0EB1F9513F6009B77A6 /* GeoPaymentSDK.h */,
+				79CA03971F95199000007DD9 /* GeoPaymentSDK.m */,
 				7928D0EC1F9513F6009B77A6 /* Info.plist */,
 			);
 			path = GeoPaymentSDK;
+			sourceTree = "<group>";
+		};
+		79CA03841F9517B500007DD9 /* PaymentViews */ = {
+			isa = PBXGroup;
+			children = (
+				79CA03AF1F9521F700007DD9 /* SelectCardController.h */,
+				79CA03B01F9521F700007DD9 /* SelectCardController.m */,
+				79CA03B31F95222B00007DD9 /* CardViewController.h */,
+				79CA03B41F95222B00007DD9 /* CardViewController.m */,
+				79CA03C71F952ED000007DD9 /* ConfirmationController.h */,
+				79CA03C81F952ED000007DD9 /* ConfirmationController.m */,
+				79CA03CF1F9531B700007DD9 /* SuccessfulPaymentController.h */,
+				79CA03D01F9531B700007DD9 /* SuccessfulPaymentController.m */,
+				79CA03851F9517DD00007DD9 /* Main.storyboard */,
+				79CA03BB1F95242100007DD9 /* NSObject+UIViewController_ToastView.h */,
+				79CA03BC1F95242100007DD9 /* NSObject+UIViewController_ToastView.m */,
+			);
+			path = PaymentViews;
+			sourceTree = "<group>";
+		};
+		79CA039E1F95212000007DD9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				79CA039F1F95212C00007DD9 /* cart-icon.png */,
+				79CA03A01F95212C00007DD9 /* geo-logo-small.png */,
+				79CA03A11F95212C00007DD9 /* master-card.png */,
+				79CA03A21F95212C00007DD9 /* tick-icon.png */,
+				79CA03A31F95212C00007DD9 /* visa-card.png */,
+				79CA03A41F95212C00007DD9 /* wing-card.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +129,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA03B11F9521F700007DD9 /* SelectCardController.h in Headers */,
 				7928D0ED1F9513F6009B77A6 /* GeoPaymentSDK.h in Headers */,
+				79CA03B51F95222B00007DD9 /* CardViewController.h in Headers */,
+				79CA03D11F9531B700007DD9 /* SuccessfulPaymentController.h in Headers */,
+				79CA03BD1F95242100007DD9 /* NSObject+UIViewController_ToastView.h in Headers */,
+				79CA03C91F952ED000007DD9 /* ConfirmationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +196,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA03A61F95212C00007DD9 /* geo-logo-small.png in Resources */,
+				79CA03AA1F95212C00007DD9 /* wing-card.png in Resources */,
+				79CA03A71F95212C00007DD9 /* master-card.png in Resources */,
+				79CA03A81F95212C00007DD9 /* tick-icon.png in Resources */,
+				79CA03A51F95212C00007DD9 /* cart-icon.png in Resources */,
+				79CA03A91F95212C00007DD9 /* visa-card.png in Resources */,
+				79CA03861F9517DD00007DD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA03D21F9531B700007DD9 /* SuccessfulPaymentController.m in Sources */,
+				79CA03B61F95222B00007DD9 /* CardViewController.m in Sources */,
+				79CA03CA1F952ED000007DD9 /* ConfirmationController.m in Sources */,
+				79CA03981F95199000007DD9 /* GeoPaymentSDK.m in Sources */,
+				79CA03B21F9521F700007DD9 /* SelectCardController.m in Sources */,
+				79CA03BE1F95242100007DD9 /* NSObject+UIViewController_ToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +374,7 @@
 				7928D0F21F9513F6009B77A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

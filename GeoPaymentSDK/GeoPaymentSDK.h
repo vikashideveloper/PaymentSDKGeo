@@ -17,3 +17,23 @@ FOUNDATION_EXPORT const unsigned char GeoPaymentSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GeoPaymentSDK/PublicHeader.h>
 
 
+
+@protocol GeoPaymentSDKDelegate <NSObject>
+
+-(void)paymentDidFinish;
+-(void)didReceivePaymentError:(NSError*)error;
+
+@end
+
+
+
+@interface GeoPaymentSDK : NSObject
+
+@property (nonatomic) id<GeoPaymentSDKDelegate>delegate;
+@property (nonatomic) NSString *payableAmount;
+
+-(UIViewController*)paymentController;
+
++(GeoPaymentSDK *)sharedInstance;
+
+@end
